@@ -41,7 +41,7 @@ tabs = st.tabs([
     "Ampoule Scheduler",
     "Powder Scheduler",
     "Vendor OTIF",
-    "Customer OTIF",
+    "Costumer OTIF",
     "TAT Analysis",
     "Vehicle Optimisation"
 ])
@@ -66,9 +66,9 @@ with tabs[2]:
 
 # --- Tab 4: Customer OTIF ---
 with tabs[3]:
-    st.markdown("### 🧑‍🤝‍🧑 Customer OTIF Analysis")
+    st.markdown("### 🧑‍🤝‍🧑 Costumer OTIF Analysis")
     st.markdown("Loading module…")
-    exec(open("pages/Customer_OTIF.py").read())
+    exec(open("pages/Costumer_OTIF.py").read())
 
 # --- Tab 5: TAT Analysis ---
 with tabs[4]:
